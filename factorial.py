@@ -1,33 +1,33 @@
-# factorial.py 
+# factorial.py
 
-import time   
+import time
 
-final_list = []    
-def factorial(n):   
+final_list = []
+def factorial(n):
 
-   time.sleep(.1)   
-   factorial = 1   
-   
-   for i in range (1,n+1):   
+   time.sleep(.1)
+   factorial = 1
 
-    factorial = factorial * i   
+   for i in range (1,n+1):
 
-    return factorial     
+    factorial = factorial * i
 
-def sum_factorial():  
+    return factorial
 
-    for i in range(50):   
+def sum_factorial():
 
-        final_list.append(factorial(i))    
+    for i in range(50):
 
-    result=sum(final_list)    
+        final_list.append(factorial(i))
 
-    print("Final SUM = {}".format(result)) 
+    result=sum(final_list)
+
+    print("Final SUM = {}".format(result))
 
     return result
 
-if __name__ == "__main__": 
+if __name__ == "__main__":
 
     sum_factorial()
 
-    # Final SUM = 620960027832821612639424806694551108812720525606160920420940314 
+    # Final SUM = 620960027832821612639424806694551108812720525606160920420940314
